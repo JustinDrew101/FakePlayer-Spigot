@@ -1,0 +1,9 @@
+name: FakePlayer
+version: '${project.version}'
+main: com.drew.fakeplayer.FakePlayer
+api-version: '1.19'
+commands:
+  fk_create:
+    description: Creates a fake Player
+  fk_remove:
+    description: Removes the Fake Player
